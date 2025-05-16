@@ -34,5 +34,4 @@ public abstract class Person {
 
     // Method: Abstracted
     abstract void displayPersonalInformation();
-    abstract String displayStudentNameAndAverage();
 }

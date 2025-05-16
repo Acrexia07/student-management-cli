@@ -36,11 +36,6 @@ public class Student extends Person{
         System.out.printf("Average Grade: %.2f%%\n", this.getAverageGrade());
     }
 
-    @Override
-    public String displayStudentNameAndAverage() {
-        return String.format("Name: %s | Average: %.2f%%\n", this.getName(), this.getAverageGrade());
-    }
-
     // Method: Overridden (toString) - Display student Information in designated format
     @Override
     public String toString () {
